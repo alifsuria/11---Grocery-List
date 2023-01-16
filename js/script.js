@@ -85,14 +85,14 @@
   };
 
   clearAll.addEventListener("click", function() {
-    alert("click");
+   
     groceryList = [];
     localStorage.clear();
     getList(groceryList);
   });
 
   itemForm.addEventListener("submit", function(e) {
-    alert("click");
+   
     e.preventDefault();
     const itemName = inputBox.value;
     if ((itemName === 0, itemName === "")) {
